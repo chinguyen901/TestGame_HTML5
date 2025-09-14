@@ -1,0 +1,10 @@
+{
+"debugMode"     : 0,
+"showFPS"       : false,
+"frameRate"     : 30,
+"id"            : "gameCanvas",
+"renderMode"    : 0,
+"engineDir"     : "frameworks/cocos2d-html5/",
+"modules"       : ["cocos2d"],
+"jsList"        : ["js/StartGame.js","js/MainHome.js","js/level.js","js/selectLevel.js"]
+}

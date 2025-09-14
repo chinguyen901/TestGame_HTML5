@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Smart Fit Block</title>
+    <meta name="keywords" content="Create by Loki" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <!-- Cập nhật CSP ở đây -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self' https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com; 
+        style-src 'self' 'unsafe-inline'; 
+        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com; 
+        img-src 'self' data: content:;
+        frame-src 'self' https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com;
+    ">
+    <style>
+        body {
+            background-color: #02374C;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+        #ad-container {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 1000;
+        }
+        #ad {
+            width: 320px;
+            height: 100px;
+            margin: 0 auto;
+            background-color: #cccccc; /* Placeholder background */
+        }
+    </style>
+</head>
+<body>
+    <script src="cordova.js"></script>
+    <canvas id="gameCanvas" width="1440" height="3200"></canvas>
+    <script src="frameworks/cocos2d-html5/CCBoot.js"></script>
+    <script src="js/start.js"></script>
+
+</body>
+</html>
